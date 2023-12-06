@@ -36,7 +36,7 @@ function detPossibleGames(filename: string): number {
   return sum;
 }
 
-const res = detPossibleGames("input-2.txt");
+const res = detPossibleGames("input.txt");
 console.log(res);
 
 /** Part 2 */
@@ -82,5 +82,5 @@ function getSum(filename: string): number {
   return sum;
 }
 
-const result = getSum("input-2.txt");
+const result = getSum("input.txt");
 console.log(result);

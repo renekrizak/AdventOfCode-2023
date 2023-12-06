@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 
-const filePath = "input-1.txt";
+const filePath = "input.txt";
 
 async function readLines(filepath: string): Promise<string[]> {
   try {
